@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="about-me">
       <div className="about-me-contants">
-        <img src="assets/me.png" alt="An illustartion photo from me" />
+        <img src="/me.png" alt="An illustartion photo from me" />
 
         <div className="description">
           <p>
