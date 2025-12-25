@@ -269,6 +269,10 @@ footer {
   justify-content: center;
   padding: 0 auto;
   gap: 18px;
+  z-index: 10;
+}
+.social-links a {
+  pointer-events: auto;
 }
 .social-links a i {
   font-size: var(--text-2xl);
