@@ -1,4 +1,6 @@
 export default function About() {
+  const email = "beghteraf@gmail.com";
+  const subject = encodeURIComponent("Collaboration Inquiry");
   return (
     <div className="about-me">
       <div className="about-me-contants">
@@ -31,7 +33,7 @@ export default function About() {
         </a>
 
         <a
-          href="mailto:beghteraf@gmail.com"
+          href={`mailto:${email}?subject=${subject}`}
           target="_blank"
           rel="noopener noreferrer"
         >
