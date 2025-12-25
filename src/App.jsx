@@ -8,8 +8,19 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import { ChevronUp } from "lucide-react";
 import Footer from "./components/Footer";
+import { useEffect } from "react";
 function App() {
   const location = useLocation();
+  const isAboutPage = location.pathname === "/about";
+
+  useEffect(() => {
+    const onScroll = () => {
+      const nav = document.querySelector("nav");
+      nav.classList.toggle("scrolled", window.scrollY > 10);
+    };
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -17,22 +28,25 @@ function App() {
       behavior: "smooth",
     });
   };
-  const isAboutPage = location.pathname === "/about";
+
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Projects />} />
-        <Route path="/Character-design" element={<CharacterDesign />} />
-        <Route path="/Illustration" element={<Illustration />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      {!isAboutPage && (
-        <button className="back-to-top" onClick={scrollToTop}>
-          <ChevronUp size={18} />
-        </button>
-      )}
+      <main>
+        <Routes>
+          <Route path="/" element={<Projects />} />
+          <Route path="/Character-design" element={<CharacterDesign />} />
+          <Route path="/Illustration" element={<Illustration />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        {!isAboutPage && (
+          <button className="back-to-top" onClick={scrollToTop}>
+            <ChevronUp size={18} />
+          </button>
+        )}
+      </main>
+
       <Footer />
     </>
   );

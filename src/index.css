@@ -1,8 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
 :root {
   /* Colors */
   --bg-main: #0f1115;
-  --bg-secondary: #161a22;
-  --bg-card: #1c2130;
 
   --text-primary: #77b4b5;
   --text-secondary: #b07ab4;
@@ -13,8 +12,8 @@
   --border-color: #2a2f40;
 
   /* Typography */
-  --font-main: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-mono: "JetBrains Mono", monospace;
+  --font-main: "Delius", cursive, "Inter", system-ui, -apple-system,
+    BlinkMacSystemFont, sans-serif;
 
   /* Sizes */
   --text-sm: 0.875rem;
@@ -34,7 +33,6 @@
 /*BODY & GLOBAL*/
 body {
   background-color: var(--bg-main);
-  color: var(--text-primary);
   font-family: var(--font-main);
   font-size: var(--text-base);
 }
@@ -66,10 +64,6 @@ p {
   font-size: var(--text-base);
 }
 
-small {
-  color: var(--text-muted);
-  font-size: var(--text-sm);
-}
 /*-----------------------------------------------------------------------
 /* LINKS */
 a {

@@ -15,7 +15,7 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <p>Thank you for watching ❤️</p>
+        <p>Thank you for watching 💜</p>
         <a onClick={copyEmail} className="email-copy">
           beghteraf@gmail.com
         </a>
