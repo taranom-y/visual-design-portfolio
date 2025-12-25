@@ -11,7 +11,7 @@ export default function About() {
             Inverse School.
           </p>
           <p>
-            i’ve always been captivated by creating new characters,
+            I’ve always been captivated by creating new characters,
             incorporating vibrant and whimsical atmospheres to bring new stories
             to life.
           </p>
