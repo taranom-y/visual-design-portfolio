@@ -5,7 +5,6 @@ import Projects from "./components/Projects";
 import CharacterDesign from "./components/CharacterDesign";
 import Illustration from "./components/Illustration";
 import About from "./components/About";
-import Contact from "./components/Contact";
 import { ChevronUp } from "lucide-react";
 import Footer from "./components/Footer";
 import { useEffect } from "react";
@@ -38,7 +37,6 @@ function App() {
           <Route path="/Character-design" element={<CharacterDesign />} />
           <Route path="/Illustration" element={<Illustration />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
         {!isAboutPage && (
           <button className="back-to-top" onClick={scrollToTop}>

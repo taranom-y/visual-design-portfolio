@@ -30,7 +30,11 @@ export default function About() {
           <i className="fab fa-linkedin"></i>
         </a>
 
-        <a href="/contact">
+        <a
+          href="mailto:beghteraf@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fa fa-envelope"></i>
         </a>
       </div>
