@@ -1,5 +1,5 @@
 export default function About() {
-  const email = "beghteraf@gmail.com";
+  const email = encodeURIComponent("beghteraf@gmail.com");
   const subject = encodeURIComponent("Collaboration Inquiry");
   return (
     <div className="about-me">
