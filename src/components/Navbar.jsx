@@ -8,7 +8,7 @@ export default function Navbar() {
       <nav>
         <div className="nav-links">
           <NavLink to="/" end className="nav-link">
-            Visual dvelopment
+            Visual development
           </NavLink>
 
           <NavLink to="/Character-design" className="nav-link">
@@ -18,7 +18,7 @@ export default function Navbar() {
             Illustration
           </NavLink>
           <NavLink to="/about" className="nav-link">
-            About
+            About me
           </NavLink>
         </div>
       </nav>

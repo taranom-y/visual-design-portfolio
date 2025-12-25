@@ -6,12 +6,12 @@ export default function About() {
 
         <div className="description">
           <p>
-            Hi, I’m Bahar. I’ve completed several online character design and
+            Hi, I’m Bahar, i’ve completed several online character design and
             illustration classes, also recently passed a (vis_dev) course at
-            Inverse school.
+            Inverse School.
           </p>
           <p>
-            I’ve always been captivated by creating new characters,
+            i’ve always been captivated by creating new characters,
             incorporating vibrant and whimsical atmospheres to bring new stories
             to life.
           </p>
