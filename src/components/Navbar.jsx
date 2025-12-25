@@ -7,7 +7,7 @@ export default function Navbar() {
       </div>
       <nav>
         <div className="nav-links">
-          <NavLink to="/Visual-dvelopment" end className="nav-link">
+          <NavLink to="/" end className="nav-link">
             Visual dvelopment
           </NavLink>
 
