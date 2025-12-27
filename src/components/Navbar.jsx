@@ -3,7 +3,7 @@ export default function Navbar() {
   return (
     <>
       <div className="Brand">
-        <h3>BAHAR EGHTERAFI</h3>
+        <h1>BAHAR EGHTERAFI</h1>
       </div>
       <nav>
         <div className="nav-links">

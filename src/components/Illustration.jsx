@@ -9,7 +9,7 @@ export default function Illustration() {
             src={pic.image}
             alt={pic.title}
             loading="lazy"
-            style={{ "--delay": `${index * 1.2}s` }}
+            style={{ "--delay": `${index * 0.9}s` }}
           />
         ))}
       </div>
