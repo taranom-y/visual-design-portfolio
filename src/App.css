@@ -49,6 +49,17 @@ nav.scrolled {
   text-shadow: 0 0 5px #503588, 0 0 15px #503588, 0 0 30px #caa2ce;
 }
 /*-----------------------------------------------------------------------
+/* overlay on page for protection */
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: transparent;
+}
+/*-----------------------------------------------------------------------
 /* Project image list style */
 .image-list {
   display: flex;
@@ -58,7 +69,6 @@ nav.scrolled {
 }
 
 .image-list img {
-  cursor: pointer;
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -178,7 +188,8 @@ nav.scrolled {
 .illustration-img-list img:nth-child(5n + 6) {
   grid-column: span 4;
 }
-/*-------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------
+/* About me page style */
 .about-me::before {
   content: "";
   position: absolute;
@@ -256,7 +267,17 @@ nav.scrolled {
 }
 /* ---------- MOBILE (≤ 768px) ---------- */
 @media (max-width: 768px) {
+  p {
+    font-size: var(--text-sm);
+  }
+  h1 {
+    font-size: var(--text-base);
+  }
   /* Navbar */
+  nav .nav-link {
+    font-size: var(--text-sm);
+  }
+
   nav {
     padding: 6px 0;
   }
@@ -264,7 +285,6 @@ nav.scrolled {
   nav .nav-links {
     flex-wrap: wrap;
     justify-content: center;
-    font-size: var(--text-base);
     gap: 12px;
   }
 

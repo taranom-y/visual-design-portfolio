@@ -1,7 +1,7 @@
 import { CharacterList } from "../utils/CharacterList";
 export default function CharacterDesign() {
   return (
-    <>
+    <div className="image-wrapper">
       <div className="character-img-list">
         {CharacterList.map((charac, index) => (
           <img
@@ -13,6 +13,7 @@ export default function CharacterDesign() {
           />
         ))}
       </div>
-    </>
+      <div className="overlay" />
+    </div>
   );
 }

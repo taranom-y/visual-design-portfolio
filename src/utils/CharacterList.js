@@ -17,17 +17,16 @@ export const CharacterList = [
     image: "/CharacterPic/witchArtboard 3.jpg",
     description: "",
   },
-
   {
     id: 4,
-    title: "visidArtboard 3",
-    image: "/CharacterPic/visidArtboard 3.jpg",
+    title: "impressionArtboard 2",
+    image: "/CharacterPic/impressionArtboard 2.jpg",
     description: "",
   },
   {
     id: 5,
-    title: "ftfgArtboard 1",
-    image: "/CharacterPic/ftfgArtboard 1.jpg",
+    title: "nhArtboard 2 copy",
+    image: "/CharacterPic/nhArtboard 2 copy.jpg",
     description: "",
   },
 
@@ -52,6 +51,18 @@ export const CharacterList = [
   },
   {
     id: 9,
+    title: "visidArtboard 3",
+    image: "/CharacterPic/visidArtboard 3.jpg",
+    description: "",
+  },
+  {
+    id: 10,
+    title: "ftfgArtboard 1",
+    image: "/CharacterPic/ftfgArtboard 1.jpg",
+    description: "",
+  },
+  {
+    id: 11,
     title: "lllArtboard 1",
     image: "/CharacterPic/lllArtboard 1.jpg",
     description: "",

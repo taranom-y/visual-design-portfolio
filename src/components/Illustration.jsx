@@ -1,7 +1,7 @@
 import { IllustrationList } from "../utils/IllustrationList";
 export default function Illustration() {
   return (
-    <>
+    <div className="image-wrapper">
       <div className="illustration-img-list">
         {IllustrationList.map((pic, index) => (
           <img
@@ -13,6 +13,7 @@ export default function Illustration() {
           />
         ))}
       </div>
-    </>
+      <div className="overlay" />
+    </div>
   );
 }

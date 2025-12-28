@@ -3,7 +3,7 @@ import { ProjectsList } from "../utils/ProjectList";
 export default function Projects() {
   return (
     <>
-      <div>
+      <div className="image-wrapper">
         {ProjectsList.map((project, index) => (
           <div key={project.id} className="image-list">
             <img
@@ -14,6 +14,7 @@ export default function Projects() {
             />
           </div>
         ))}
+        <div className="overlay" />
       </div>
     </>
   );
