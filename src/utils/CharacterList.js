@@ -73,4 +73,10 @@ export const CharacterList = [
     image: '/CharacterPic/ladyArtboard 2.jpg',
     description: '',
   },
+  {
+    id: 13,
+    title: 'tajik girlArtboard 1',
+    image: '/CharacterPic/tajik girlArtboard 1.jpg',
+    description: '',
+  },
 ];
